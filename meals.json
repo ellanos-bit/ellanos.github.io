@@ -2,43 +2,120 @@
     {
         "name": "Chicken and vegetables",
         "dietaryRestrictions": [],
-        "calorieGoals": 500,
-        "preferredCuisines": ["American", "Healthy"]
+        "calorieGoals": "2000",
+        "breakfast": {
+            "name": "Oatmeal with berries",
+            "ingredients": ["Oats", "Berries", "Milk"]
+        },
+        "lunch": {
+            "name": "Chicken salad sandwich",
+            "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
+        },
+        "dinner": {
+            "name": "Chicken and roasted vegetables",
+            "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
+        }
     },
     {
         "name": "Pasta with tomato sauce",
         "dietaryRestrictions": ["Vegetarian"],
-        "calorieGoals": 600,
-        "preferredCuisines": ["Italian"]
+        "calorieGoals": "2200",
+        "breakfast": {
+            "name": "Yogurt with granola",
+            "ingredients": ["Yogurt", "Granola", "Fruit"]
+        },
+        "lunch": {
+            "name": "Vegetable soup",
+            "ingredients": ["Carrots", "Celery", "Onions", "Broth"]
+        },
+        "dinner": {
+            "name": "Pasta with tomato sauce and vegetables",
+            "ingredients": ["Pasta", "Tomato sauce", "Peppers", "Onions"]
+        }
     },
     {
         "name": "Fish and rice",
         "dietaryRestrictions": [],
-        "calorieGoals": 450,
-        "preferredCuisines": ["Asian"]
+        "calorieGoals": "1800",
+        "breakfast": {
+            "name": "Scrambled eggs",
+            "ingredients": ["Eggs", "Milk", "Cheese"]
+        },
+        "lunch": {
+            "name": "Tuna salad",
+            "ingredients": ["Tuna", "Mayonnaise", "Celery", "Bread"]
+        },
+        "dinner": {
+            "name": "Fish and brown rice with steamed vegetables",
+            "ingredients": ["Fish", "Brown Rice", "Broccoli", "Carrots"]
+        }
     },
     {
         "name": "Soup and salad",
         "dietaryRestrictions": ["Vegetarian"],
-        "calorieGoals": 400,
-        "preferredCuisines": ["American", "Healthy"]
+        "calorieGoals": "2400",
+        "breakfast": {
+            "name": "Toast with avocado",
+            "ingredients": ["Toast", "Avocado", "Salt", "Pepper"]
+        },
+        "lunch": {
+            "name": "Lentil soup",
+            "ingredients": ["Lentils", "Carrots", "Celery", "Onions"]
+        },
+        "dinner": {
+            "name": "Salad with grilled tofu",
+            "ingredients": ["Lettuce", "Tomato", "Cucumber", "Tofu"]
+        }
     },
     {
         "name": "Pizza",
         "dietaryRestrictions": [],
-        "calorieGoals": 800,
-        "preferredCuisines": ["Italian"]
+        "calorieGoals": "2600",
+        "breakfast": {
+            "name": "Breakfast burrito",
+            "ingredients": ["Eggs", "Sausage", "Cheese", "Tortilla"]
+        },
+        "lunch": {
+            "name": "Pizza slices",
+            "ingredients": ["Pizza"]
+        },
+        "dinner": {
+            "name": "Pizza with salad",
+            "ingredients": ["Pizza", "Lettuce", "Tomato", "Cucumber"]
+        }
     },
     {
         "name": "Burgers",
         "dietaryRestrictions": [],
-        "calorieGoals": 700,
-        "preferredCuisines": ["American"]
+        "calorieGoals": "2800",
+        "breakfast": {
+            "name": "Pancakes",
+            "ingredients": ["Flour", "Eggs", "Milk", "Syrup"]
+        },
+        "lunch": {
+            "name": "Burger and fries",
+            "ingredients": ["Burger", "Fries"]
+        },
+        "dinner": {
+            "name": "Burger with salad",
+            "ingredients": ["Burger", "Lettuce", "Tomato", "Cucumber"]
+        }
     },
     {
         "name": "Roast chicken",
         "dietaryRestrictions": [],
-        "calorieGoals": 650,
-        "preferredCuisines": ["American"]
+        "calorieGoals": "3000",
+        "breakfast": {
+            "name": "Waffles",
+            "ingredients": ["Flour", "Eggs", "Milk", "Syrup"]
+        },
+        "lunch": {
+            "name": "Chicken wrap",
+            "ingredients": ["Chicken", "Lettuce", "Tomato", "Tortilla"]
+        },
+        "dinner": {
+            "name": "Roast chicken with mashed potatoes",
+            "ingredients": ["Chicken", "Potatoes", "Gravy"]
+        }
     }
 ]

@@ -43,14 +43,29 @@
     <section id="meal-plan-input">
         <h2>Generate Your Meal Plan</h2>
         <form id="meal-plan-form">
-            <label for="dietary-restrictions">Dietary Restrictions:</label>
-            <input type="text" id="dietary-restrictions" name="dietary-restrictions"><br><br>
+            <label for="dietary-preferences">Dietary Preferences:</label>
+            <select id="dietary-preferences" name="dietary-preferences">
+                <option value="">None</option>
+                <option value="keto">Keto</option>
+                <option value="low-carb">Low-Carb</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="vegan">Vegan</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="carnivore">Carnivore</option>
+                <option value="pescetarian">Pescetarian</option>
+            </select><br><br>
 
-            <label for="calorie-goals">Calorie Goals:</label>
-            <input type="number" id="calorie-goals" name="calorie-goals"><br><br>
-
-            <label for="preferred-cuisines">Preferred Cuisines:</label>
-            <input type="text" id="preferred-cuisines" name="preferred-cuisines"><br><br>
+            <label for="calorie-goals">Calorie Goals (Per Day):</label>
+            <select id="calorie-goals" name="calorie-goals">
+                <option value="">None</option>
+                <option value="1800">1800</option>
+                <option value="2000">2000</option>
+                <option value="2200">2200</option>
+                <option value="2400">2400</option>
+                <option value="2600">2600</option>
+                <option value="2800">2800</option>
+                <option value="3000">3000</option>
+            </select><br><br>
 
             <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
         </form>
