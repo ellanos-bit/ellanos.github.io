@@ -26,7 +26,7 @@ function generateMealPlan() {
                 }
 
                 // Check calorie goals
-                if (calorieGoals !== "" && meal.calorieGoals != calorieGoals) {
+                if (calorieGoals !== "" && meal.calorieGoals == calorieGoals) {
                     return false;
                 }
 
