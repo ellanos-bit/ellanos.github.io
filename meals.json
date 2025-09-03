@@ -1,915 +1,128 @@
-
 [
   {
-    "name": "Chicken and vegetables",
+    "name": "Oatmeal with berries",
     "dietaryRestrictions": [],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Oats", "Berries", "Milk"]
   },
   {
-    "name": "Chicken and vegetables",
+    "name": "Chicken salad sandwich",
     "dietaryRestrictions": [],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
   },
   {
-    "name": "Chicken and vegetables",
+    "name": "Chicken and roasted vegetables",
     "dietaryRestrictions": [],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
+    "mealType": "dinner",
+    "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
   },
   {
-    "name": "Chicken and vegetables",
-    "dietaryRestrictions": [],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
-  },
-  {
-    "name": "Chicken and vegetables",
-    "dietaryRestrictions": [],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
-  },
-  {
-    "name": "Chicken and vegetables",
-    "dietaryRestrictions": [],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
-  },
-  {
-    "name": "Chicken and vegetables",
-    "dietaryRestrictions": [],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oats", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Chicken salad sandwich",
-      "ingredients": ["Chicken", "Lettuce", "Tomato", "Bread"]
-    },
-    "dinner": {
-      "name": "Chicken and roasted vegetables",
-      "ingredients": ["Chicken", "Broccoli", "Carrots", "Potatoes"]
-    }
-  },
-  {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
+    "name": "Eggs with avocado",
+    "dietaryRestrictions": ["keto", "low-carb"],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Eggs", "Avocado", "Cheese"]
   },
   {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
+    "name": "Chicken salad with avocado",
+    "dietaryRestrictions": ["keto", "low-carb"],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
   },
   {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
+    "name": "Steak with broccoli",
+    "dietaryRestrictions": ["keto", "low-carb", "carnivore"],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
+    "mealType": "dinner",
+    "ingredients": ["Steak", "Broccoli", "Butter"]
   },
   {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
-  },
-  {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
-  },
-  {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
-  },
-  {
-    "name": "Keto Chicken and vegetables",
-    "dietaryRestrictions": ["keto"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Eggs with avocado",
-      "ingredients": ["Eggs", "Avocado", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with avocado",
-      "ingredients": ["Chicken", "Avocado", "Lettuce", "Mayonnaise"]
-    },
-    "dinner": {
-      "name": "Steak with broccoli",
-      "ingredients": ["Steak", "Broccoli", "Butter"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
+    "name": "Oatmeal with fruit",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Oats", "Fruit", "Almond Milk"]
   },
   {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Low-Carb Chicken and vegetables",
-    "dietaryRestrictions": ["low-carb"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Eggs with spinach",
-      "ingredients": ["Eggs", "Spinach", "Cheese"]
-    },
-    "lunch": {
-      "name": "Chicken salad with lettuce wraps",
-      "ingredients": ["Chicken", "Lettuce", "Mayonnaise", "Celery"]
-    },
-    "dinner": {
-      "name": "Salmon with asparagus",
-      "ingredients": ["Salmon", "Asparagus", "Lemon"]
-    }
-  },
-  {
-    "name": "Gluten-Free Chicken and vegetables",
-    "dietaryRestrictions": ["gluten-free"],
-    "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
-  },
-  {
-    "name": "Gluten-Free Chicken and vegetables",
+    "name": "Chicken and rice bowl",
     "dietaryRestrictions": ["gluten-free"],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Chicken", "Rice", "Vegetables"]
   },
   {
-    "name": "Gluten-Free Chicken and vegetables",
+    "name": "Baked chicken with sweet potato",
     "dietaryRestrictions": ["gluten-free"],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
+    "mealType": "dinner",
+    "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
   },
   {
-    "name": "Gluten-Free Chicken and vegetables",
-    "dietaryRestrictions": ["gluten-free"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
-  },
-  {
-    "name": "Gluten-Free Chicken and vegetables",
-    "dietaryRestrictions": ["gluten-free"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
-  },
-  {
-    "name": "Gluten-Free Chicken and vegetables",
-    "dietaryRestrictions": ["gluten-free"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
-  },
-  {
-    "name": "Gluten-Free Chicken and vegetables",
-    "dietaryRestrictions": ["gluten-free"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Oatmeal with fruit",
-      "ingredients": ["Oats", "Fruit", "Almond Milk"]
-    },
-    "lunch": {
-      "name": "Chicken and rice bowl",
-      "ingredients": ["Chicken", "Rice", "Vegetables"]
-    },
-    "dinner": {
-      "name": "Baked chicken with sweet potato",
-      "ingredients": ["Chicken", "Sweet Potato", "Broccoli"]
-    }
-  },
-  {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
+    "name": "Tofu scramble",
+    "dietaryRestrictions": ["vegan", "vegetarian"],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Tofu", "Vegetables", "Turmeric"]
   },
   {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
+    "name": "Lentil soup",
+    "dietaryRestrictions": ["vegan", "vegetarian"],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Lentils", "Vegetables", "Broth"]
   },
   {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
+    "name": "Vegan stir-fry",
+    "dietaryRestrictions": ["vegan", "vegetarian"],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
+    "mealType": "dinner",
+    "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
   },
   {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
-  },
-  {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
-  },
-  {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
-  },
-  {
-    "name": "Vegan Chicken and vegetables",
-    "dietaryRestrictions": ["vegan"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Tofu scramble",
-      "ingredients": ["Tofu", "Vegetables", "Turmeric"]
-    },
-    "lunch": {
-      "name": "Lentil soup",
-      "ingredients": ["Lentils", "Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Vegan stir-fry",
-      "ingredients": ["Tofu", "Vegetables", "Soy Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Vegetarian Chicken and vegetables",
-    "dietaryRestrictions": ["vegetarian"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Yogurt with granola",
-      "ingredients": ["Yogurt", "Granola", "Fruit"]
-    },
-    "lunch": {
-      "name": "Vegetable soup",
-      "ingredients": ["Vegetables", "Broth"]
-    },
-    "dinner": {
-      "name": "Pasta with vegetables",
-      "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
-    }
-  },
-  {
-    "name": "Carnivore Chicken and vegetables",
+    "name": "Bacon and eggs",
     "dietaryRestrictions": ["carnivore"],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Bacon", "Eggs"]
   },
   {
-    "name": "Carnivore Chicken and vegetables",
+    "name": "Steak",
     "dietaryRestrictions": ["carnivore"],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Steak"]
   },
   {
-    "name": "Carnivore Chicken and vegetables",
+    "name": "Ground beef",
     "dietaryRestrictions": ["carnivore"],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
+    "mealType": "dinner",
+    "ingredients": ["Ground Beef"]
   },
   {
-    "name": "Carnivore Chicken and vegetables",
-    "dietaryRestrictions": ["carnivore"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
-  },
-  {
-    "name": "Carnivore Chicken and vegetables",
-    "dietaryRestrictions": ["carnivore"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
-  },
-  {
-    "name": "Carnivore Chicken and vegetables",
-    "dietaryRestrictions": ["carnivore"],
-    "calorieGoals": "2800",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
-  },
-  {
-    "name": "Carnivore Chicken and vegetables",
-    "dietaryRestrictions": ["carnivore"],
-    "calorieGoals": "3000",
-    "breakfast": {
-      "name": "Bacon and eggs",
-      "ingredients": ["Bacon", "Eggs"]
-    },
-    "lunch": {
-      "name": "Steak",
-      "ingredients": ["Steak"]
-    },
-    "dinner": {
-      "name": "Ground beef",
-      "ingredients": ["Ground Beef"]
-    }
-  },
-  {
-    "name": "Pescetarian Chicken and vegetables",
+    "name": "Oatmeal with berries",
     "dietaryRestrictions": ["pescetarian"],
     "calorieGoals": "1800",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oatmeal", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Tuna salad sandwich",
-      "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
-    },
-    "dinner": {
-      "name": "Salmon with vegetables",
-      "ingredients": ["Salmon", "Broccoli", "Carrots"]
-    }
+    "mealType": "breakfast",
+    "ingredients": ["Oatmeal", "Berries", "Milk"]
   },
   {
-    "name": "Pescetarian Chicken and vegetables",
+    "name": "Tuna salad sandwich",
     "dietaryRestrictions": ["pescetarian"],
     "calorieGoals": "2000",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oatmeal", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Tuna salad sandwich",
-      "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
-    },
-    "dinner": {
-      "name": "Salmon with vegetables",
-      "ingredients": ["Salmon", "Broccoli", "Carrots"]
-    }
+    "mealType": "lunch",
+    "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
   },
   {
-    "name": "Pescetarian Chicken and vegetables",
+    "name": "Salmon with vegetables",
     "dietaryRestrictions": ["pescetarian"],
     "calorieGoals": "2200",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oatmeal", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Tuna salad sandwich",
-      "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
-    },
-    "dinner": {
-      "name": "Salmon with vegetables",
-      "ingredients": ["Salmon", "Broccoli", "Carrots"]
-    }
-  },
-  {
-    "name": "Pescetarian Chicken and vegetables",
-    "dietaryRestrictions": ["pescetarian"],
-    "calorieGoals": "2400",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oatmeal", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Tuna salad sandwich",
-      "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
-    }
-    "dinner": {
-      "name": "Salmon with vegetables",
-      "ingredients": ["Salmon", "Broccoli", "Carrots"]
-    }
-  },
-  },
-  {
-    "name": "Pescetarian Chicken and vegetables",
-    "dietaryRestrictions": ["pescetarian"],
-    "calorieGoals": "2600",
-    "breakfast": {
-      "name": "Oatmeal with berries",
-      "ingredients": ["Oatmeal", "Berries", "Milk"]
-    },
-    "lunch": {
-      "name": "Tuna salad sandwich",
-      "ingredients": ["Tuna", "Mayonnaise", "Lettuce", "Bread"]
+    "mealType": "dinner",
+    "ingredients": ["Salmon", "Broccoli", "Carrots"]
+  }
+]

@@ -1,68 +1,79 @@
 function generateMealPlan() {
-    // Get user inputs
-    var dietaryPreferences = document.getElementById("dietary-preferences").value;
-    var calorieGoals = document.getElementById("calorie-goals").value;
+  // Get user inputs
+  var dietaryPreferences = document.getElementById("dietary-preferences").value;
+  var calorieGoals = document.getElementById("calorie-goals").value;
 
-    // Validate user inputs
-    if (calorieGoals === "") {
-        alert("Please select a calorie goal.");
+  // Validate user inputs
+  if (calorieGoals === "") {
+    alert("Please select a calorie goal.");
+    return;
+  }
+
+  // Fetch meal data from meals.json
+  fetch("meals.json")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to fetch meal data.");
+      }
+      return response.json();
+    })
+    .then(meals => {
+      // Filter meals based on user preferences
+      var filteredMeals = meals.filter(meal => {
+        var dietaryRestrictionMatch = dietaryPreferences === "" || meal.dietaryRestrictions.includes(dietaryPreferences);
+        var calorieGoalMatch = calorieGoals === "" || meal.calorieGoals === calorieGoals;
+        return dietaryRestrictionMatch && calorieGoalMatch;
+      });
+
+      // Check if there are any meals that match the user's criteria
+      if (filteredMeals.length === 0) {
+        alert("No meals found matching your criteria. Please adjust your preferences.");
+        document.getElementById("meal-plan-input").innerHTML = ""; // Clear previous results
         return;
-    }
+      }
 
-    // Fetch meal data from meals.json
-    fetch("meals.json")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Failed to fetch meal data.");
-            }
-            return response.json();
-        })
-        .then(meals => {
-            // Filter meals based on user preferences
-            var filteredMeals = meals;
-            
+      // Generate meal plan
+      var mealPlan = {};
+      var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
-            // Check if there are any meals that match the user's criteria
-            if (filteredMeals.length === 0) {
-                alert("No meals found matching your criteria. Please adjust your preferences.");
-                return;
-            }
+      days.forEach(day => {
+        mealPlan[day] = {};
+        ["breakfast", "lunch", "dinner"].forEach(mealType => {
+          // Filter meals for the current meal type
+          var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
 
-            // Generate meal plan
-            var mealPlan = {};
-            var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-            var mealTypes = ["breakfast", "lunch", "dinner"];
-
-            days.forEach(day => {
-                mealPlan[day] = {};
-                mealTypes.forEach(mealType => {
-                    // Get a random meal from the filtered meals
-                    var randomMeal = filteredMeals[Math.floor(Math.random() * filteredMeals.length)];
-
-                    // Add the meal to the meal plan
-                    mealPlan[day][mealType] = {
-                        name: randomMeal.name,
-                        ingredients: randomMeal.ingredients[mealType]
-                    };
-                });
-            });
-
-            // Display the meal plan
-            var mealPlanHtml = "<h2>Your Meal Plan</h2>";
-            days.forEach(day => {
-                mealPlanHtml += "<h3>" + day + "</h3><ul>";
-                mealTypes.forEach(mealType => {
-                    mealPlanHtml += "<li><b>" + mealType + ":</b> " + mealPlan[day][mealType].name + "<br>";
-                    mealPlanHtml += "<b>Ingredients:</b> " + mealPlan[day][mealType].ingredients.join(", ") + "</li>";
-                });
-                mealPlanHtml += "</ul>";
-            });
-
-            // Add the meal plan to the page
-            document.getElementById("meal-plan-input").innerHTML += mealPlanHtml;
-        })
-        .catch(error => {
-            console.error("Error:", error);
-            alert("An error occurred while generating your meal plan. Please try again later.");
+          // Get a random meal from the filtered meals
+          if (mealTypeMeals.length > 0) {
+            var randomMeal = mealTypeMeals[Math.floor(Math.random() * mealTypeMeals.length)];
+            mealPlan[day][mealType] = {
+              name: randomMeal.name,
+              ingredients: randomMeal.ingredients
+            };
+          } else {
+            mealPlan[day][mealType] = {
+              name: "No meal found",
+              ingredients: []
+            };
+          }
         });
+      });
+
+      // Display the meal plan
+      var mealPlanHtml = "<h2>Your Meal Plan</h2>";
+      days.forEach(day => {
+        mealPlanHtml += "<h3>" + day + "</h3><ul>";
+        ["breakfast", "lunch", "dinner"].forEach(mealType => {
+          mealPlanHtml += "<li><b>" + mealType + ":</b> " + mealPlan[day][mealType].name + "<br>";
+          mealPlanHtml += "<b>Ingredients:</b> " + mealPlan[day][mealType].ingredients.join(", ") + "</li>";
+        });
+        mealPlanHtml += "</ul>";
+      });
+
+      // Add the meal plan to the page
+      document.getElementById("meal-plan-input").innerHTML = mealPlanHtml;
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("An error occurred while generating your meal plan. Please try again later.");
+    });
 }
