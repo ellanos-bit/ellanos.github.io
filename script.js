@@ -19,19 +19,8 @@ function generateMealPlan() {
         })
         .then(meals => {
             // Filter meals based on user preferences
-            var filteredMeals = meals.filter(meal => {
-                // Check dietary preferences
-                if (dietaryPreferences !== "" && !meal.dietaryRestrictions.includes(dietaryPreferences)) {
-                    return false;
-                }
-
-                // Check calorie goals
-                if (calorieGoals !== "" && meal.calorieGoals == calorieGoals) {
-                    return false;
-                }
-
-                return true;
-            });
+            var filteredMeals = meals;
+            
 
             // Check if there are any meals that match the user's criteria
             if (filteredMeals.length === 0) {
