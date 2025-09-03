@@ -77,3 +77,41 @@ footer {
     border-top: 1px solid #ddd;
     margin-top: auto;
 }
+
+#meal-plan-input {
+    text-align: center;
+}
+
+#meal-plan-form {
+    display: inline-block;
+    text-align: left;
+}
+
+#meal-plan-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#meal-plan-form input[type="text"],
+#meal-plan-form input[type="number"] {
+    width: 200px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#meal-plan-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#meal-plan-form button:hover {
+    background-color: #0056b3;
+}

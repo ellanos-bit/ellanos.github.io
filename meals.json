@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Chicken and vegetables",
+        "dietaryRestrictions": [],
+        "calorieGoals": 500,
+        "preferredCuisines": ["American", "Healthy"]
+    },
+    {
+        "name": "Pasta with tomato sauce",
+        "dietaryRestrictions": ["Vegetarian"],
+        "calorieGoals": 600,
+        "preferredCuisines": ["Italian"]
+    },
+    {
+        "name": "Fish and rice",
+        "dietaryRestrictions": [],
+        "calorieGoals": 450,
+        "preferredCuisines": ["Asian"]
+    },
+    {
+        "name": "Soup and salad",
+        "dietaryRestrictions": ["Vegetarian"],
+        "calorieGoals": 400,
+        "preferredCuisines": ["American", "Healthy"]
+    },
+    {
+        "name": "Pizza",
+        "dietaryRestrictions": [],
+        "calorieGoals": 800,
+        "preferredCuisines": ["Italian"]
+    },
+    {
+        "name": "Burgers",
+        "dietaryRestrictions": [],
+        "calorieGoals": 700,
+        "preferredCuisines": ["American"]
+    },
+    {
+        "name": "Roast chicken",
+        "dietaryRestrictions": [],
+        "calorieGoals": 650,
+        "preferredCuisines": ["American"]
+    }
+]
