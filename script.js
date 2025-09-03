@@ -21,7 +21,7 @@ function generateMealPlan() {
       // Filter meals based on user preferences
       var filteredMeals = meals.filter(meal => {
         var dietaryRestrictionMatch = dietaryPreferences === "" || meal.dietaryRestrictions.includes(dietaryPreferences);
-        var calorieGoalMatch = calorieGoals === "" || meal.calorieGoals === calorieGoals;
+        var calorieGoalMatch = calorieGoals === "" || meal.calorieGoals == calorieGoals;
         return dietaryRestrictionMatch && calorieGoalMatch;
       });
 
