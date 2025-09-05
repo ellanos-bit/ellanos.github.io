@@ -53,16 +53,21 @@ function generateMealPlan() {
                 ingredients: randomMeal.ingredients
               };
             } else {
-              mealPlan[day][mealType] = {
-                name: "No meal found",
-                ingredients: []
-              };
+              // No meal found for this meal type, relax the filtering criteria
+              let relaxedMeals = filteredMeals.length > 0 ? filteredMeals : meals;
+              if (relaxedMeals.length > 0) {
+                let randomMeal = relaxedMeals[Math.floor(Math.random() * relaxedMeals.length)];
+                  mealPlan[day][mealType] = {
+                    name: randomMeal.name,
+                    ingredients: randomMeal.ingredients
+                  };
+              } else {
+                mealPlan[day][mealType] = {
+                  name: "No meal found",
+                  ingredients: []
+                };
+              }
             }
-          } else {
-            mealPlan[day][mealType] = {
-              name: "No meal found",
-              ingredients: []
-            };
           }
         });
       });
