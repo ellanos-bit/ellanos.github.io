@@ -41,12 +41,14 @@ function generateMealPlan() {
         ["breakfast", "lunch", "dinner"].forEach(mealType => {
           // Filter meals for the current meal type
           var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
+          console.log("mealTypeMeals:", mealTypeMeals);
 
           // Get a random meal from the filtered meals, excluding previously selected meals
           if (mealTypeMeals.length > 0) {
             var availableMeals = mealTypeMeals;
 
             if (availableMeals.length > 0) {
+              console.log("availableMeals:", availableMeals);
               var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
               mealPlan[day][mealType] = {
                 name: randomMeal.name,
