@@ -44,14 +44,7 @@ function generateMealPlan() {
 
           // Get a random meal from the filtered meals, excluding previously selected meals
           if (mealTypeMeals.length > 0) {
-            var availableMeals = mealTypeMeals.filter(meal => {
-              for (let d in mealPlan) {
-                if (mealPlan[d][mealType] && mealPlan[d][mealType].name === meal.name) {
-                  return false;
-                }
-              }
-              return true;
-            });
+            var availableMeals = mealTypeMeals;
 
             if (availableMeals.length > 0) {
               var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
