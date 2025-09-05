@@ -102,6 +102,6 @@ function generateMealPlan() {
     })
     .catch(error => {
       console.error("Error:", error);
-      alert("An error occurred while generating your meal plan. Please try again later.");
+      alert("An error occurred while generating your meal plan. Please try again later: " + error);
     });
 }
