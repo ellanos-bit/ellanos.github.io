@@ -124,5 +124,194 @@
     "calorieGoals": "2200",
     "mealType": "dinner",
     "ingredients": ["Salmon", "Broccoli", "Carrots"]
+  },
+  {
+    "name": "Yogurt with granola",
+    "dietaryRestrictions": ["vegetarian"],
+    "calorieGoals": "2400",
+    "mealType": "breakfast",
+    "ingredients": ["Yogurt", "Granola", "Fruit"]
+  },
+  {
+    "name": "Vegetable soup",
+    "dietaryRestrictions": ["vegetarian"],
+    "calorieGoals": "2600",
+    "mealType": "lunch",
+    "ingredients": ["Vegetables", "Broth"]
+  },
+  {
+    "name": "Pasta with vegetables",
+    "dietaryRestrictions": ["vegetarian"],
+    "calorieGoals": "2800",
+    "mealType": "dinner",
+    "ingredients": ["Pasta", "Vegetables", "Tomato Sauce"]
+  },
+    {
+    "name": "Scrambled eggs with smoked salmon",
+    "dietaryRestrictions": ["pescetarian"],
+    "calorieGoals": "2400",
+    "mealType": "breakfast",
+    "ingredients": ["Eggs", "Smoked Salmon"]
+  },
+  {
+    "name": "Shrimp and vegetable skewers",
+    "dietaryRestrictions": ["pescetarian"],
+    "calorieGoals": "2600",
+    "mealType": "lunch",
+    "ingredients": ["Shrimp", "Vegetables"]
+  },
+  {
+    "name": "Tuna steak with roasted asparagus",
+    "dietaryRestrictions": ["pescetarian"],
+    "calorieGoals": "2800",
+    "mealType": "dinner",
+    "ingredients": ["Tuna", "Asparagus"]
+  },
+  {
+    "name": "Tofu and vegetable curry",
+    "dietaryRestrictions": ["vegan"],
+    "calorieGoals": "2400",
+    "mealType": "lunch",
+    "ingredients": ["Tofu", "Vegetables", "Curry Sauce"]
+  },
+  {
+    "name": "Vegan lentil shepherd's pie",
+    "dietaryRestrictions": ["vegan"],
+    "calorieGoals": "2600",
+    "mealType": "dinner",
+    "ingredients": ["Lentils", "Vegetables", "Mashed Sweet Potato"]
+  },
+  {
+    "name": "Vegan protein shake",
+    "dietaryRestrictions": ["vegan"],
+    "calorieGoals": "2800",
+    "mealType": "breakfast",
+    "ingredients": ["Protein Powder", "Almond Milk", "Fruit"]
+  },
+  {
+    "name": "Steak and eggs",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "2400",
+    "mealType": "breakfast",
+    "ingredients": ["Steak", "Eggs"]
+  },
+  {
+    "name": "Ground beef and bone broth",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "2600",
+    "mealType": "lunch",
+    "ingredients": ["Ground Beef", "Bone Broth"]
+  },
+  {
+    "name": "Beef liver and bacon",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "2800",
+    "mealType": "dinner",
+    "ingredients": ["Beef Liver", "Bacon"]
+  },
+  {
+    "name": "Quinoa porridge with apple and cinnamon",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
+    "calorieGoals": "1800",
+    "mealType": "breakfast",
+    "ingredients": ["Quinoa", "Apple", "Cinnamon", "Almond Milk"]
+  },
+  {
+    "name": "Chickpea and vegetable tagine",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
+    "calorieGoals": "2000",
+    "mealType": "lunch",
+    "ingredients": ["Chickpeas", "Vegetables", "Tagine Sauce"]
+  },
+  {
+    "name": "Butternut squash and lentil curry",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
+    "calorieGoals": "2200",
+    "mealType": "dinner",
+    "ingredients": ["Butternut Squash", "Lentils", "Curry Sauce"]
+  },
+  {
+    "name": "Coconut yogurt with tropical fruit",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
+    "calorieGoals": "2400",
+    "mealType": "breakfast",
+    "ingredients": ["Coconut Yogurt", "Tropical Fruit", "Chia Seeds"]
+  },
+  {
+    "name": "Black bean burgers",
+    "dietaryRestrictions": ["gluten-free", "vegetarian", "vegan"],
+    "calorieGoals": "2600",
+    "mealType": "lunch",
+    "ingredients": ["Black Beans", "Vegetables", "Spices"]
+  },
+  {
+    "name": "Mushroom stroganoff with brown rice",
+    "dietaryRestrictions": ["gluten-free", "vegetarian"],
+    "calorieGoals": "2800",
+    "mealType": "dinner",
+    "ingredients": ["Mushrooms", "Vegetables", "Brown Rice", "Cashew Cream"]
+  },
+  {
+    "name": "Smoked salmon and avocado toast",
+    "dietaryRestrictions": ["dairy-free", "pescetarian"],
+    "calorieGoals": "1800",
+    "mealType": "breakfast",
+    "ingredients": ["Smoked Salmon", "Avocado", "Gluten-Free Bread"]
+  },
+  {
+    "name": "Grilled shrimp salad with citrus vinaigrette",
+    "dietaryRestrictions": ["dairy-free", "pescetarian"],
+    "calorieGoals": "2000",
+    "mealType": "lunch",
+    "ingredients": ["Shrimp", "Mixed Greens", "Citrus Vinaigrette"]
+  },
+  {
+    "name": "Baked cod with roasted vegetables",
+    "dietaryRestrictions": ["dairy-free", "pescetarian"],
+    "calorieGoals": "2200",
+    "mealType": "dinner",
+    "ingredients": ["Cod", "Vegetables", "Lemon"]
+  },
+  {
+   "name": "Full English breakfast",
+    "dietaryRestrictions": [],
+    "calorieGoals": "2400",
+    "mealType": "breakfast",
+    "ingredients": ["Eggs", "Bacon", "Sausage", "Tomatoes", "Mushrooms", "Toast"]
+  },
+  {
+    "name": "Chicken Caesar salad",
+    "dietaryRestrictions": [],
+    "calorieGoals": "2600",
+    "mealType": "lunch",
+    "ingredients": ["Chicken", "Lettuce", "Croutons", "Parmesan Cheese", "Caesar Dressing"]
+  },
+  {
+    "name": "Beef Wellington",
+    "dietaryRestrictions": [],
+    "calorieGoals": "2800",
+    "mealType": "dinner",
+    "ingredients": ["Beef Fillet", "Puff Pastry", "Mushrooms", "Prosciutto"]
+  },
+  {
+    "name": "Carnivore shake",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "1800",
+    "mealType": "breakfast",
+    "ingredients": ["Beef protein powder", "Water"]
+  },
+  {
+    "name": "Ground beef and eggs",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "2000",
+    "mealType": "lunch",
+    "ingredients": ["Ground beef", "Eggs"]
+  },
+  {
+    "name": "Lamb chops",
+    "dietaryRestrictions": ["carnivore"],
+    "calorieGoals": "2200",
+    "mealType": "dinner",
+    "ingredients": ["Lamb chops"]
   }
 ]

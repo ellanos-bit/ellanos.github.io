@@ -42,13 +42,29 @@ function generateMealPlan() {
           // Filter meals for the current meal type
           var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
 
-          // Get a random meal from the filtered meals
+          // Get a random meal from the filtered meals, excluding previously selected meals
           if (mealTypeMeals.length > 0) {
-            var randomMeal = mealTypeMeals[Math.floor(Math.random() * mealTypeMeals.length)];
-            mealPlan[day][mealType] = {
-              name: randomMeal.name,
-              ingredients: randomMeal.ingredients
-            };
+            var availableMeals = mealTypeMeals.filter(meal => {
+              for (let d in mealPlan) {
+                if (mealPlan[d][mealType] && mealPlan[d][mealType].name === meal.name) {
+                  return false;
+                }
+              }
+              return true;
+            });
+
+            if (availableMeals.length > 0) {
+              var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
+              mealPlan[day][mealType] = {
+                name: randomMeal.name,
+                ingredients: randomMeal.ingredients
+              };
+            } else {
+              mealPlan[day][mealType] = {
+                name: "No meal found",
+                ingredients: []
+              };
+            }
           } else {
             mealPlan[day][mealType] = {
               name: "No meal found",
