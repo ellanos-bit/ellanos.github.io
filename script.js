@@ -40,48 +40,29 @@ function generateMealPlan() {
         mealPlan[day] = {};
         ["breakfast", "lunch", "dinner"].forEach(mealType => {
           // Filter meals for the current meal type
-          try {
-            var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
-            console.log("mealTypeMeals:", mealTypeMeals);
-          } catch (error) {
-            console.error("Error filtering mealTypeMeals:", error);
-            alert("Error filtering mealTypeMeals: " + error);
-            return;
-          }
+          var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
 
           // Get a random meal from the filtered meals, excluding previously selected meals
           if (mealTypeMeals.length > 0) {
             var availableMeals = mealTypeMeals;
 
             if (availableMeals.length > 0) {
-              console.log("availableMeals:", availableMeals);
-              try {
-                var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
-                mealPlan[day][mealType] = {
-                  name: randomMeal.name,
-                  ingredients: randomMeal.ingredients
-                };
-              } catch (error) {
-                console.error("Error selecting randomMeal:", error);
-                alert("Error selecting randomMeal: " + error);
-                return;
-              }
+              var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
+              mealPlan[day][mealType] = {
+                name: randomMeal.name,
+                ingredients: randomMeal.ingredients
+              };
             } else {
-              // No meal found for this meal type, relax the filtering criteria
-              let relaxedMeals = filteredMeals.length > 0 ? filteredMeals : meals;
-              if (relaxedMeals.length > 0) {
-                let randomMeal = relaxedMeals[Math.floor(Math.random() * relaxedMeals.length)];
-                  mealPlan[day][mealType] = {
-                    name: randomMeal.name,
-                    ingredients: randomMeal.ingredients
-                  };
-              } else {
-                mealPlan[day][mealType] = {
-                  name: "No meal found",
-                  ingredients: []
-                };
-              }
+              mealPlan[day][mealType] = {
+                name: "No meal found",
+                ingredients: []
+              };
             }
+          } else {
+            mealPlan[day][mealType] = {
+              name: "No meal found",
+              ingredients: []
+            };
           }
         });
       });
@@ -102,6 +83,6 @@ function generateMealPlan() {
     })
     .catch(error => {
       console.error("Error:", error);
-      alert("An error occurred while generating your meal plan. Please try again later: " + error);
+      alert("An error occurred while generating your meal plan. Please try again later.");
     });
 }
