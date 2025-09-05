@@ -54,6 +54,7 @@ function generateMealPlan() {
                 name: randomMeal.name,
                 ingredients: randomMeal.ingredients
               };
+              lastSelectedMeals[randomMeal.name] = true;
             } else {
               // No meal found for this meal type, relax the filtering criteria
               let relaxedMeals = filteredMeals.length > 0 ? filteredMeals : meals;
@@ -86,7 +87,7 @@ function generateMealPlan() {
       });
 
       // Add the meal plan to the page
-      document.getElementById("meal-plan-input").innerHTML = mealPlanHtml;
+      document.getElementById("meal-plan-output").innerHTML = mealPlanHtml;
     })
     .catch(error => {
       console.error("Error:", error);
