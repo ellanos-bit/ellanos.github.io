@@ -10,7 +10,7 @@ function generateMealPlan() {
   }
 
   // Fetch meal data from meals.json
-  fetch("meals.json")
+  fetch("https://github.com/ellanos-bit/ellanos.github.io/raw/main/meals.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Failed to fetch meal data.");
