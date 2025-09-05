@@ -40,8 +40,14 @@ function generateMealPlan() {
         mealPlan[day] = {};
         ["breakfast", "lunch", "dinner"].forEach(mealType => {
           // Filter meals for the current meal type
-          var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
-          console.log("mealTypeMeals:", mealTypeMeals);
+          try {
+            var mealTypeMeals = filteredMeals.filter(meal => meal.mealType === mealType);
+            console.log("mealTypeMeals:", mealTypeMeals);
+          } catch (error) {
+            console.error("Error filtering mealTypeMeals:", error);
+            alert("Error filtering mealTypeMeals: " + error);
+            return;
+          }
 
           // Get a random meal from the filtered meals, excluding previously selected meals
           if (mealTypeMeals.length > 0) {
@@ -49,12 +55,17 @@ function generateMealPlan() {
 
             if (availableMeals.length > 0) {
               console.log("availableMeals:", availableMeals);
-              var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
-              mealPlan[day][mealType] = {
-                name: randomMeal.name,
-                ingredients: randomMeal.ingredients
-              };
-              lastSelectedMeals[randomMeal.name] = true;
+              try {
+                var randomMeal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
+                mealPlan[day][mealType] = {
+                  name: randomMeal.name,
+                  ingredients: randomMeal.ingredients
+                };
+              } catch (error) {
+                console.error("Error selecting randomMeal:", error);
+                alert("Error selecting randomMeal: " + error);
+                return;
+              }
             } else {
               // No meal found for this meal type, relax the filtering criteria
               let relaxedMeals = filteredMeals.length > 0 ? filteredMeals : meals;
